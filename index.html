@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Tarefas</title>
+</head>
+<body>
+    <div class="content">
+        <div class="top">
+            <input type="text"
+                id="inputNewTask"
+                placeholder="Adicione uma nova tarefa"
+            >
+            <button id="btnAddTask">
+                <i class="fa fa-plus"></i>
+            </button>
+        </div>
+        <ul id=listTask>
+        </ul>
+    </div>
+    <div id="windowEdition">
+        <button id="windowEditionBtnClose">
+            <i class="fa fa-remove"></i>
+        </button>
+        <h2 id="idTaskEdtion">#1021</h2>
+        <hr>
+        <form>
+            <div class="frmLine">
+                <label for="name">Nome</label>
+                <input type= "text" id="inputTaskNameEdit"/>
+            </div>
+            <div class="frmLine">
+                <button id="btnUpdateTask">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <div id="windowEditionBackground"></div>
+    <script src="main.js"></script>
+</body>
+</html>
