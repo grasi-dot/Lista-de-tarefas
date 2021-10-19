@@ -3,7 +3,7 @@
 Treinando HTML e CSS e Javascript.
 
 
-<img src="Layout.png" alt="My cool logo"/>
+<img src="layout.png" alt="My cool logo"/>
 
 ## Ferramentas :point_left:
 <div style="display: inline_block"><br>
